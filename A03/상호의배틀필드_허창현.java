@@ -18,7 +18,7 @@ public class 상호의배틀필드_허창현 {
         int row=0;
         int col=0;
         
-        // 전차의 좌표, 방향
+        // 전차의 좌표
         int r=0;
         int c=0;
         
