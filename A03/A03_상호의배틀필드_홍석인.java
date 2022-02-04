@@ -60,7 +60,7 @@ public class A03_상호의배틀필드_홍석인 {
 
 		if (pos == '^') {
 			direction = 1;
-		} else if (pos == '^') {
+		} else if (pos == 'v') {
 			direction = 0;
 		} else if (pos == '<') {
 			direction = 2;
