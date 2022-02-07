@@ -17,31 +17,6 @@ public class 괄호짝짓기 {
         // TC의 갯수
         int TC = 10;
 
-//        for(int i=0; i<TC; i++) {
-//        	int valid = 0;
-//        	int len = Integer.parseInt(br.readLine());
-//        	String temp = br.readLine();
-//        	// 0:( 1:[ 2:{ 3:<
-//        	int[] brackets = new int[4]; 
-//        	for(int j=0; j<len; j++) {
-//        		char bracket = temp.charAt(j);
-//        		switch(bracket){
-//        		case '(' : brackets[0] += 1; break;
-//        		case '[' : brackets[1] += 1; break;
-//        		case '{' : brackets[2] += 1; break;
-//        		case '<' : brackets[3] += 1; break;
-//        		case ')' : brackets[0] -= 1; break;
-//        		case ']' : brackets[1] -= 1; break;
-//        		case '}' : brackets[2] -= 1; break;
-//        		case '>' : brackets[3] -= 1; break;
-//        		}
-//        	}
-//        	if(brackets[0]==0 && brackets[1]==0 && brackets[2]==0 && brackets[3]==0) {
-//        		valid = 1;
-//        	}
-//        	
-//        	sb.append("#").append(i+1).append(" ").append(valid).append("\n");
-//        }
         for(int i=0; i<TC; i++) {
         	int valid = 1;
         	int len = Integer.parseInt(br.readLine());
